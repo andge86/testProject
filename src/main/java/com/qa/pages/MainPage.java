@@ -13,10 +13,13 @@ public class MainPage {
 
 
     public ContactsPage goToContactsPage(){
-
         System.out.println(helloText);
-
         return new ContactsPage("I am on Contacts page!");
+    }
+
+    public SettingsPage goToSettingsPage(){
+        System.out.println(helloText);
+        return new SettingsPage("I am on Settings page!");
     }
 
 }
