@@ -13,6 +13,8 @@ public class ContactsPageTests extends BaseTest {
     @Test
     public void openContactsPage(){
 
+        System.out.println("Starting test!");
+        
         mainPage = new MainPage("I am on Main page!!!");
         mainPage.goToContactsPage();
     }
