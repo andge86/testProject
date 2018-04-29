@@ -11,4 +11,12 @@ public class ContactsPage {
 
     }
 
+
+    public SearchPage goToSearchPage(){
+
+        System.out.println("Going to Search page");
+        return new SearchPage("I am on Search page!!!");
+
+    }
+
 }
